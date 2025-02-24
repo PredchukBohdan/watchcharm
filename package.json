@@ -1,11 +1,11 @@
 {
-  "name": "finallanding01",
+  "name": "watchcharm",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/finallanding01/",
+    "build": "vite build --base=/watchcharm/",
     "preview": "vite preview"
   },
   "devDependencies": {
