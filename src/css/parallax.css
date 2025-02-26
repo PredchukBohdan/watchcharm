@@ -1,6 +1,10 @@
 .parallax {
   height: 70vh;
   position: relative;
+  visibility: hidden;
+}
+.parallax.show {
+  visibility: visible;
 }
 .parallax video {
   width: 100vw;

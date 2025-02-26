@@ -2,6 +2,8 @@
   background-color: #f7f7fb;
   padding-top: 30px;
   padding-bottom: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 .tabs-title {
   font-weight: 600;
