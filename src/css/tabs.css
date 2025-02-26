@@ -59,6 +59,7 @@
   height: 100%;
   display: block;
   opacity: 0;
+  border-radius: 30px;
   overflow: hidden;
   object-fit: cover;
   aspect-ratio: 1.2;
