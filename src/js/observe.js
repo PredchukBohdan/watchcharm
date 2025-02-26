@@ -29,20 +29,12 @@
   const observer = new IntersectionObserver(handleIntersect, options);
   const observerAndShow = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-      } else {
-        entry.target.classList.remove('show');
-      }
+      entry.target.classList.toggle('show', entry.isIntersecting);
     });
   }, optionsAndShow);
   const observerParallax = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-      } else {
-        entry.target.classList.remove('show');
-      }
+      entry.target.classList.toggle('show', entry.isIntersecting);
     });
   });
 
