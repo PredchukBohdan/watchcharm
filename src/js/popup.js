@@ -31,6 +31,7 @@
       openPopup(image) {
         if (image) {
           const imgPopup = this.querySelector('img');
+          console.log(image.src);
           imgPopup.src = image.src;
           imgPopup.alt = image.alt;
           this.classList.add('is-open');
