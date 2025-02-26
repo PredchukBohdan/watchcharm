@@ -34,8 +34,10 @@
           console.log(image.src);
           imgPopup.src = image.src;
           imgPopup.alt = image.alt;
-          this.classList.add('is-open');
-          document.body.classList.add('hidden');
+          setTimeout(() => {
+            this.classList.add('is-open');
+            document.body.classList.add('hidden');
+          }, 500);
         }
       }
       closePopup() {
