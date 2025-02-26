@@ -31,7 +31,7 @@
       openPopup(image) {
         if (image) {
           const imgPopup = this.querySelector('img');
-          imgPopup.src = image.dataset.popup;
+          imgPopup.src = image.src;
           imgPopup.alt = image.alt;
           this.classList.add('is-open');
           document.body.classList.add('hidden');
