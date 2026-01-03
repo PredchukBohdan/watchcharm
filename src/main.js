@@ -5,3 +5,4 @@ import '../src/js/back-to-top';
 import '../src/js/popup';
 import '../src/js/reviews-slider';
 import '../src/js/tabs';
+import '../src/js/catalog-cards-parallax';
