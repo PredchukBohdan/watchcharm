@@ -31,7 +31,6 @@
       stopParallax(e) {
         const card = e.target.closest('.catalog-item');
         if (!card) return;
-
         const content = card.querySelector('.content');
         if (!content) return;
 
