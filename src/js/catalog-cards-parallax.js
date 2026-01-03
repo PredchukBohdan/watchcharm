@@ -1,6 +1,6 @@
 (() => {
   if (!customElements.get('parallax-cards')) {
-    class parallaxCards extends HTMLElement {
+    class ParallaxCards extends HTMLElement {
       constructor() {
         super();
         this.startParallax = this.startParallax.bind(this);
@@ -37,6 +37,6 @@
         content.style.transform = 'rotate(0)';
       }
     }
-    customElements.define('parallax-cards', parallaxCards);
+    customElements.define('parallax-cards', ParallaxCards);
   }
 })();
